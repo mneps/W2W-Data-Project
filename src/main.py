@@ -64,7 +64,6 @@ def format_df(results_data):
     df = df.round(2)
     df.loc['Total',:]= df.sum(axis=0)
 
-
     df.to_csv(os.path.join(fields.OUTPUT_DIRECTORY, 'results.csv'))
 
 
