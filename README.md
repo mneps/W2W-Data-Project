@@ -1,7 +1,7 @@
 # When2Work Analysis
 
 ## Overview
-This program scrapes data from the When2Work scheduling website and outputs a CSV file with data relating to hours worked by employee, per year.  The program allows the user to specify the date range for which they would like to scrape.  I have only conducted tested with the TSNY-NYC When2Work instance, but this program should theoretically should work for any company's When2Work account.
+This program scrapes data from the When2Work scheduling website and outputs a CSV file with data relating to hours worked by employee, per year.  The program allows the user to specify the date range for which they would like to scrape.  I have only conducted testing with the TSNY-NYC When2Work instance, but this program should theoretically should work for any company's When2Work account.
 
 ## Setup
 To run this program, you will need Python3.7 and to install the packages listed in the `requirements.txt` file.  You will also need to save your When2Work credentials as environment variables under the names `W2W_USERNAME` and `W2W_PASSWORD`.  The final step is to set the variables in the `src/fields.py` file to your liking.
